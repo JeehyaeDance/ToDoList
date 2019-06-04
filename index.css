@@ -95,3 +95,10 @@ ul li.checked::before {
 	margin: auto;
 
 }
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px 15px 10px 15px;
+}
