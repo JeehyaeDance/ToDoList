@@ -1,0 +1,97 @@
+
+h1 {
+	color: Tomato;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+.explainScript {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+form {
+	text-align: center;
+}
+
+#exampleList {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 13px;
+	margin-left: 30px;
+}
+
+input[type=text] {
+	border: 2px solid LightSalmon;
+	border-radius: 4px;
+	width: 300px;
+	padding: 8px 4px;
+	margin: 4px 0;
+}
+
+button {
+	background-color: LightSalmon;
+	color: white;
+	padding: 8px 8px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: Tomato;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 8px 8px;
+	font-size: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	border-radius: 5px;
+}
+
+ul li:hover{
+	background: MistyRose;
+}
+
+ul li.checked {
+	background: MistyRose;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.explain-box {
+	border-style: solid;
+	border-color: gray;
+	border-width: 5px;
+	border-radius: 10px;
+	padding: 20px;
+	width: 400px;
+	margin: auto;
+}
+
+.list-box {
+	border-style: dotted;
+	border-color: Tomato;
+	border-width: 5px;
+	border-radius: 10px;
+	padding: 20px;
+	width: 400px;
+	margin: auto;
+
+}
